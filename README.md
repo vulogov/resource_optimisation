@@ -91,23 +91,23 @@ pip3 install pyzabbix
 ## The Task.
 
 Here is the facts that we will be using to build our model:
-* We have three "products"
-1. Product "A" is running 30 minutes per day and requires following resources:
-*** 10 units of CPU
-*** 4000 units of Memory
-*** At least 250 units of Disk
-2. Product "B" is running 350 minutes per day and requires following resources:
-*** 1000 units of CPU
-*** 400 units of Memory
-*** 50 units of Disk
-3. Product "C" is running 700 minutes per day and requires following resources:
-*** 5 units of CPU
-*** 40 units of Memory
-*** At least 2000 units of Disk
-* Here is the cost allocation for the resources:
-1. 1 unit of CPU costs us 0.02$ per minute
-2. 1 unit of the Memory costs us 0.05$ per minute
-3. 1 unit of the Disk costs us 0.01$ per minute.
+1. We have three "products"
+* Product "A" is running 30 minutes per day and requires following resources:
+1. 10 units of CPU
+2. 4000 units of Memory
+3. At least 250 units of Disk
+* Product "B" is running 350 minutes per day and requires following resources:
+1. 1000 units of CPU
+2. 400 units of Memory
+3. 50 units of Disk
+* Product "C" is running 700 minutes per day and requires following resources:
+1. 5 units of CPU
+2. 40 units of Memory
+3. At least 2000 units of Disk
+2. Here is the cost allocation for the resources:
+* 1 unit of CPU costs us 0.02$ per minute
+* 1 unit of the Memory costs us 0.05$ per minute
+* 1 unit of the Disk costs us 0.01$ per minute.
 
 
 # The Author
