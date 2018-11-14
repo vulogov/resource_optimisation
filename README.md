@@ -11,7 +11,7 @@ administrators do surround themselves with just the facts, without caring for
 what kind of story those facts are part of. They are looking at the CPU
 consumption, or Garbage collection and use little of what they have to understand
 the actual story behind the facts.
-
+---
 Why it is important ? I do like to make that example for my students: Everyone
 knows about Chernobyl Power Plant failure. Well, you can call a thermal explosion
 "a failure". Without going much into a nature of the event, the one fact,
@@ -24,27 +24,27 @@ when you are looking at your Inbox, filled with thousands of the messages from
 your monitoring, you must question yourself if you are doing things right. In
 21 century, where cellphone in your pocket is much more powerful than computer
 which monitors nuclear reactor in 1986.
-
+---
 So, let's roll and find out how you can monitor the optimum. What is the optimum ?
 The search for the optimum is the process of mathematical computations, in pursue
 for the answer on the single question: "Which element are the best from the
 selection of available alternatives". In most cases, we have to produce the
 set of alternatives by running some computations.
-
+---
 When we are monitoring the metrics, the optimum calculated from some metrics and
 criteria, often-time will tell us a story behind raw data. "Under the hood",
 I will create the system of Linear Equations and will use the Simplex Algorithm
 to search for the optimum. But have no fear. This presentation is done by
 the System Administrator and for the fellow System Administrators.
 I will try to make it simple.
-
+---
 When I mention the word "monitor", I did not mentioned it in wane. I will use
 Zabbix monitoring platform as an example. Calculating the optimum is not the
 functionality, supported by Zabbix "out of box". None of the monitoring platforms
 I know about do that. We have to create a script,  which will collect data for
 our computations and push the results back to the  platform which will do all
 the "monitoring part".
-
+---
 So, some level of proficiency in coding, and particularly coding in Python will be
 a pre-requirement. Also, you have to understand, this is a research and experiment.
 Most likely, I will not deliver to you the solution, that you can use immediately.
@@ -52,6 +52,21 @@ This will be the "food for the thoughts". If you will produce any production-gra
 solution, based on the ideas outlined in that research, and you will be able to
 share that solution... You will do good for yourself and for the community of
 monitoring practitioners.
+
+## So, what we are going to do ?
+
+We will do analysis of the resource allocation for the IT infrastructure with
+minimization of the infrastructure cost.
+---
+Here is what's it's looks like:
+
+* We are having a "products" which require some resources.
+* Each product is running within known time constraints.
+* We are having resources which are available for us.
+* Each "unit" of the resource const us predefined amount of money.
+
+We do need to monitor amount of resources required for the "products" and if our
+infrastructure is cost-optimised or not.
 
 ## Requirements
 
