@@ -16,15 +16,15 @@ the actual story behind the facts.
 Why it is important ? I do like to make that example for my students: Everyone
 knows about Chernobyl Power Plant failure. Well, you can call a thermal explosion
 "a failure". Without going much into a nature of the event, the one fact,
-very important to the monitoring practitioners we must learn from. Computers in
+very important to the monitoring practitioners from which we must learn. Computers in
 1986 were much, much less powerful than, compare to now. The procedure and
 a practice of the monitoring were different then, compare to now. The Engineer,
 who controls a nuclear reactor were expected to manually monitor and process
 about 2000 near-realtime metrics. It is very difficult, indeed. So, next time,
 when you are looking at your Inbox, filled with thousands of the messages from
-your monitoring, you must question yourself if you are doing things right. In
+your monitoring platform, you must question yourself if you are doing things right. In
 21 century, where cellphone in your pocket is much more powerful than computer
-which monitors nuclear reactor in 1986.
+which monitors nuclear reactor in 1986, you must do better than this.
 
 So, let's roll and find out how you can monitor the optimum. What is the optimum ?
 The search for the optimum is the process of mathematical computations, in pursue
@@ -87,6 +87,28 @@ But you can use ether.
 ```bash
 pip3 install pyzabbix
 ```
+
+## The Task.
+
+Here is the facts that we will be using to build our model:
+* We have three "products"
+** Product "A" is running 30 minutes per day and requires following resources:
+*** 10 units of CPU
+*** 4000 units of Memory
+*** At least 250 units of Disk
+** Product "B" is running 350 minutes per day and requires following resources:
+*** 1000 units of CPU
+*** 400 units of Memory
+*** 50 units of Disk
+** Product "C" is running 700 minutes per day and requires following resources:
+*** 5 units of CPU
+*** 40 units of Memory
+*** At least 2000 units of Disk
+* Here is the cost allocation for the resources:
+** 1 unit of CPU costs us 0.02$ per minute
+** 1 unit of the Memory costs us 0.05$ per minute
+** 1 unit of the Disk costs us 0.01$ per minute.
+
 
 # The Author
 
