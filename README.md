@@ -53,7 +53,6 @@ This will be the "food for the thoughts". If you will produce any production-gra
 solution, based on the ideas outlined in that research, and you will be able to
 share that solution... You will do good for yourself and for the community of
 monitoring practitioners.
----
 
 ## So, what we are going to do ?
 
@@ -69,7 +68,6 @@ Here is what's it's looks like:
 
 We do need to monitor amount of resources required for the "products" and if our
 infrastructure is cost-optimised or not.
----
 
 ## Requirements
 
@@ -89,7 +87,6 @@ But you can use ether.
 ```bash
 pip3 install pyzabbix
 ```
----
 
 # The Author
 
